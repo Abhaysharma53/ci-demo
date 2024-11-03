@@ -15,4 +15,5 @@ substract = sub(5, 4)
 multiply = mul(5, 4)
 
 
-print(sum, substract, multiply)
+if __name__ == "__main__":
+    print(sum, substract, multiply)
