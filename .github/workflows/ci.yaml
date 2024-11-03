@@ -33,7 +33,7 @@ jobs:
         run: |
           flake8 app.py
   testing:
-
+    needs: linting
     runs-on: Ubuntu-latest
     steps:
 
